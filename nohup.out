@@ -1,0 +1,26 @@
+(node:1690) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+FATAL Port 80 has been used. Try other port instead.
+FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
+Error: listen EADDRINUSE :::80
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1355:14)
+    at listenInCluster (net.js:1396:12)
+    at Server.listen (net.js:1480:7)
+    at /usr/local/hexo/my-hexo/node_modules/hexo-server/lib/server.js:82:12
+    at Promise._execute (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/promise.js:483:18)
+    at new Promise (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/promise.js:79:10)
+    at checkPort (/usr/local/hexo/my-hexo/node_modules/hexo-server/lib/server.js:68:10)
+    at Hexo.module.exports (/usr/local/hexo/my-hexo/node_modules/hexo-server/lib/server.js:19:10)
+    at Hexo.tryCatcher (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at Promise (/usr/local/hexo/my-hexo/node_modules/hexo/lib/hexo/index.js:185:9)
+    at Promise._execute (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/promise.js:483:18)
+    at new Promise (/usr/local/hexo/my-hexo/node_modules/bluebird/js/release/promise.js:79:10)
+    at Hexo.call (/usr/local/hexo/my-hexo/node_modules/hexo/lib/hexo/index.js:181:10)
+    at /usr/local/src/node-v8.11.4-linux-x64/lib/node_modules/hexo-cli/lib/hexo.js:68:17
+    at tryCatcher (/usr/local/src/node-v8.11.4-linux-x64/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/usr/local/src/node-v8.11.4-linux-x64/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/usr/local/src/node-v8.11.4-linux-x64/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:569:18)
