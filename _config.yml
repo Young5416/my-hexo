@@ -14,8 +14,8 @@ timezone: Asia/Shanghai
 # hexo-admin authentification
 admin:
   username: Young
-  password_hash: $2a$10$kXmQLwzpwk.2py06eQ10kOX2YFnCFikPyHPTCT20DMW81NkhrhU1W
-  secret: Young8614046577
+  password_hash: 
+  secret: 
   deployCommand: './hexo-generate.sh'
 
 # URL
